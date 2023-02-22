@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>言葉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home">
+        <button id="start-button" onclick="start(); displayRandomCard();">スタート</button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1 id="out-of-words">終わりました</h1>
+            <img id="card-img" src="" />
+        </div>
+        <div class="operate">
+            <button class="button" onclick="showAnswer();">答え</button>
+            <button class="button" onclick="displayRandomCard();">次 >></button>
+        </div>
+        <div class="count">
+            <h1 id="count-words">0</h1>
+        </div>
+        <div class="answer">
+            <h1 id="answer"></h1>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

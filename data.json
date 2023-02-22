@@ -1,0 +1,107 @@
+[
+    {
+        "japanese": "アメリカ",
+        "romaji": "amerika",
+        "imgUrl": "./images/1/amerika.png"
+    },
+    {
+        "japanese": "ブラジル",
+        "romaji": "burajiru",
+        "imgUrl": "./images/1/burajiru.png"
+    },
+    {
+        "japanese": "びょういん",
+        "romaji": "byouin",
+        "imgUrl": "./images/1/byouin.jpeg"
+    },
+    {
+        "japanese": "ちゅうごく",
+        "romaji": "chuugoku",
+        "imgUrl": "./images/1/chuugoku.png"
+    },
+    {
+        "japanese": "だいがく",
+        "romaji": "daigaku",
+        "imgUrl": "./images/1/daigaku.jpeg"
+    },
+    {
+        "japanese": "でんき",
+        "romaji": "denki",
+        "imgUrl": "./images/1/denki.png"
+    },
+    {
+        "japanese": "ドイツ",
+        "romaji": "doitsu",
+        "imgUrl": "./images/1/doitsu.png"
+    },
+    {
+        "japanese": "フランス",
+        "romaji": "furansu",
+        "imgUrl": "./images/1/furansu.jpeg"
+    },
+    {
+        "japanese": "がくせい",
+        "romaji": "gakusei",
+        "imgUrl": "./images/1/gakusei.jpeg"
+    },
+    {
+        "japanese": "ほん",
+        "romaji": "hon",
+        "imgUrl": "./images/1/hon.png"
+    },
+    {
+        "japanese": "イギリス",
+        "romaji": "igirisu",
+        "imgUrl": "./images/1/igirisu.jpeg"
+    },
+    {
+        "japanese": "インドネシア",
+        "romaji": "indoneshia",
+        "imgUrl": "./images/1/indoneshia.jpeg"
+    },
+    {
+        "japanese": "いしゃ",
+        "romaji": "isha",
+        "imgUrl": "./images/1/isha.jpeg"
+    },
+    {
+        "japanese": "かんこく",
+        "romaji": "kankoku",
+        "imgUrl": "./images/1/kankoku.jpeg"
+    },
+    {
+        "japanese": "にほん",
+        "romaji": "nihon",
+        "imgUrl": "./images/1/nihon.png"
+    },
+    {
+        "japanese": "ノート",
+        "romaji": "nooto",
+        "imgUrl": "./images/1/nooto.png"
+    },
+    {
+        "japanese": "せんせい",
+        "romaji": "sensei",
+        "imgUrl": "./images/1/sensei.jpeg"
+    },
+    {
+        "japanese": "しんぶん",
+        "romaji": "shinbun",
+        "imgUrl": "./images/1/shinbun.png"
+    },
+    {
+        "japanese": "タイ",
+        "romaji": "tai",
+        "imgUrl": "./images/1/tai.jpeg"
+    },
+    {
+        "japanese": "てちょう",
+        "romaji": "techou",
+        "imgUrl": "./images/1/techou.jpeg"
+    },
+    {
+        "japanese": "ざっし",
+        "romaji": "zasshi",
+        "imgUrl": "./images/1/zasshi.jpeg"
+    }
+]

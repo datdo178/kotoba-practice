@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HOME */
+#home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/decor/background.jpg);
+}
+
+#start-button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 4em;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 1em 2em;
+}
+
+#start-button:active,
+#start-button:hover {
+    outline: 0;
+    border: 1px solid darkmagenta;
+}
+
+/* LAYOUT */
+.container {
+    display: none;
+    grid-template-columns: 60vw 20vw 20vw;
+    grid-template-areas: 'card card card' 'operate operate count' 'answer answer answer';
+}
+
+/* CARD */
+#out-of-words {
+    display: none;
+}
+
+.card {
+    grid-area: card;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    border: 10px solid gray;
+}
+
+.card img {
+    height: 45vh;
+    object-fit: contain;
+}
+
+/* OPERATE */
+.operate {
+    grid-area: operate;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.operate .button {
+    color: #000;
+    border: 3px solid;
+    padding: 0.25em 2em;
+    margin-left: 20px;
+    height: 30px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+}
+
+.operate .button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+/* ANSWER */
+.answer {
+    grid-area: answer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.answer h1 {
+    font-size: 3em;
+}
+
+/* COUNT */
+.count {
+    grid-area: count;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+}
